@@ -1,0 +1,70 @@
+
+200 -> Ok
+
+400 -> required error
+
+401 -> invalid password
+
+402 -> already exists error
+
+403 -> does not exists error
+
+404 -> not found
+
+405 -> Token expired 
+
+406 -> Invalid Token
+
+407 -> Token required
+
+408 -> Unauthenticated
+
+-> sign signup
+
+410 -> Username can not contain white space
+
+411 -> Email can not contain white space
+
+412 -> Password can not contain white space
+
+413 -> Username is already in use
+
+414 -> Email is already in use
+
+415 -> Role does not exists
+
+416 -> User not found.
+
+417 -> Invalid Password.
+
+-> Token
+
+418 -> Access token was expired 
+
+419 -> Access token was false
+
+420 -> No token provided
+
+-> Course 
+
+421 -> This isn't your own course
+
+422 -> Can't show
+
+423 -> Required Admin Role.
+
+424 -> Required Moderator Role.
+
+425 -> Required Moderator or Admin Role!
+
+426 -> Title can not be empty
+
+427 -> Cann't delete this user.May be user was not found.
+
+428 -> Can't update this user.
+
+429 -> Course image is required
+
+430 -> Please upload a file.
+
+431 -> Course image cann't larger than 2Mb.
