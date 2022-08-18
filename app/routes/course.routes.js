@@ -30,7 +30,9 @@ module.exports = function (app) {
 
     // app.get("/api/course/courses", controller.findAllCourses);
 
-    app.post("/upload",[authJwt.verifyToken,authJwt.isModeratorOrAdmin], imageController.upload);
+    // app.post("/upload",[authJwt.verifyToken,authJwt.isModeratorOrAdmin], imageController.upload);
+
+    app.post("/upload", imageController.upload);
 
     app.get("/files", imageController.getListFiles)
 
