@@ -1,9 +1,6 @@
 
-# Online courses web app
 
-This web app made with node js(backend) and angular(frontend).This app includes authentication and authorization.
-## Features
-
+This web app made with node js(backend) and angular(frontend).
 - Login / register / logout( using jwt )
 - Home Page - show all courses with pagination
 - Profile 
@@ -16,8 +13,6 @@ This web app made with node js(backend) and angular(frontend).This app includes 
 - ### Moderator
     - Can create courses.
     - Can edit/delete their own courses.
-    
-See code in master branch.
 
 
 
